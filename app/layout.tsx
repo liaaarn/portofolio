@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portofolio Pribadi",
+  title: "Portofolio",
   description:
     "Portofolio pribadi modern untuk menampilkan karya, keahlian, dan pengalaman.",
 };
