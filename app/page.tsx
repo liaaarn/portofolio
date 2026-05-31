@@ -8,7 +8,7 @@ export default function Home() {
         <header className="grid gap-10 lg:grid-cols-[1.3fr_0.8fr] lg:items-center">
           <div className="space-y-6">
             <p className="inline-flex rounded-full bg-white px-4 py-1 text-sm font-semibold uppercase tracking-[0.24em] text-zinc-600 shadow-sm shadow-black/20">
-              Portfolio
+              Portofolio
             </p>
 
             <div className="space-y-4">
@@ -27,14 +27,14 @@ export default function Home() {
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
                 href="#projects"
-                className="inline-flex items-center justify-center rounded-full bg-amber-700 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-amber-600"
+                className="inline-flex items-center justify-center rounded-full bg-amber-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-amber-800 active:bg-amber-800"
               >
                 Lihat Karya
               </a>
 
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full border border-zinc-300 bg-white px-6 py-3 text-sm font-semibold text-zinc-900 transition hover:border-amber-700 hover:text-amber-700"
+                className="inline-flex items-center justify-center rounded-full border border-amber-800 bg-white px-6 py-3 text-sm font-semibold text-amber-800 transition hover:bg-amber-800 hover:text-white active:bg-amber-800"
               >
                 Kontak Saya
               </a>
@@ -214,7 +214,7 @@ export default function Home() {
 
           <div className="grid gap-6 lg:grid-cols-3">
             {/* DESIGN 1 */}
-            <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-rose-700/30">
+            <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-amber-700/30">
               <div className="relative h-64 flex gap-2 p-4 bg-[#f5efe2]">
                 <div className="relative flex-1 rounded-2xl overflow-hidden">
                   <Image
@@ -236,7 +236,7 @@ export default function Home() {
               </div>
 
               <div className="p-6">
-                <p className="text-sm uppercase tracking-[0.24em] text-rose-700">
+                <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
                   Web Design
                 </p>
 
@@ -252,7 +252,7 @@ export default function Home() {
             </article>
 
             {/* DESIGN 2 */}
-            <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-rose-700/30">
+            <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-amber-700/30">
               <div className="relative h-64 flex gap-2 p-4 bg-[#f5efe2]">
                 <div className="relative flex-1 rounded-2xl overflow-hidden">
                   <Image
@@ -265,7 +265,7 @@ export default function Home() {
               </div>
 
               <div className="p-6">
-                <p className="text-sm uppercase tracking-[0.24em] text-rose-700">
+                <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
                   Education Design
                 </p>
 
@@ -281,7 +281,7 @@ export default function Home() {
             </article>
 
             {/* DESIGN 3 */}
-            <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-rose-700/30">
+            <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-amber-700/30">
               <div className="relative h-64 flex gap-2 p-4 bg-[#f5efe2]">
                 <div className="relative flex-1 rounded-2xl overflow-hidden">
                   <Image
@@ -294,7 +294,7 @@ export default function Home() {
               </div>
 
               <div className="p-6">
-                <p className="text-sm uppercase tracking-[0.24em] text-rose-700">
+                <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
                   E-Commerce Design
                 </p>
 
@@ -477,8 +477,8 @@ export default function Home() {
             </div>
 
             <a
-              href="mailto:email@domain.com"
-              className="inline-flex items-center justify-center rounded-full bg-amber-700 px-7 py-3 text-sm font-semibold text-slate-950 transition hover:bg-amber-600"
+              href="mailto:aramdaninur@gmail.com"
+              className="inline-flex items-center justify-center rounded-full bg-amber-700 px-7 py-3 text-sm font-semibold text-white transition hover:bg-amber-600"
             >
               Kirim Email
             </a>
@@ -507,7 +507,7 @@ export default function Home() {
                   {item.label}
                 </p>
 
-                <p className="mt-3 text-lg font-semibold text-zinc-900">
+                <p className="mt-3 text-lg font-semibold text-zinc-900 break-words">
                   {item.value}
                 </p>
               </div>
