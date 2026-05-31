@@ -306,6 +306,7 @@ export default function Home() {
             </article>
           </div>
         </section>
+
         {/* MODUL SECTION */}
         <section id="modules" className="space-y-8">
           <div className="space-y-3">
@@ -322,6 +323,40 @@ export default function Home() {
               designed and developed.
             </p>
           </div>
+
+          {/* MYSCHOOL */}
+          <article className="rounded-2xl border border-zinc-200 bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:border-amber-700/30">
+            <div className="relative h-64 flex gap-2 p-4 bg-[#f5efe2]">
+              <div className="relative flex-1 rounded-2xl overflow-hidden">
+                <Image
+                  src="/images/nc1.png"
+                  alt="neutroncode"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="relative flex-1 rounded-2xl overflow-hidden">
+                <Image
+                  src="/images/nc2.png"
+                  alt="neutroncode"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-zinc-900">
+                Nutroncodes
+              </h3>
+
+              <p className="mt-3 leading-7 text-zinc-600">
+                Compiling and designing modules for teaching materials and
+                exercises for students taking part in training
+              </p>
+            </div>
+          </article>
 
           <div className="grid gap-6 lg:grid-cols-2">
             {/* SSD */}
@@ -448,6 +483,7 @@ export default function Home() {
                 <li>• Canva</li>
                 <li>• Vercel</li>
                 <li>• Postman</li>
+                <li>• WordPress</li>
               </ul>
             </div>
           </div>
