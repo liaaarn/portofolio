@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portofolio",
+  title: "Portfolio",
   description:
-    "Portofolio pribadi modern untuk menampilkan karya, keahlian, dan pengalaman.",
+    "Modern personal portfolio to showcase your work, skills and experience.",
 };
 
 export default function RootLayout({
