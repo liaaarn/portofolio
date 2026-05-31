@@ -8,19 +8,18 @@ export default function Home() {
         <header className="grid gap-10 lg:grid-cols-[1.3fr_0.8fr] lg:items-center">
           <div className="space-y-6">
             <p className="inline-flex rounded-full bg-white px-4 py-1 text-sm font-semibold uppercase tracking-[0.24em] text-zinc-600 shadow-sm shadow-black/20">
-              Portofolio
+              Portfolio
             </p>
 
             <div className="space-y-4">
               <h1 className="text-5xl font-semibold tracking-tight text-zinc-900 sm:text-6xl">
-                Halo, saya{" "}
+                Hello, I'm{" "}
                 <span className="text-amber-800">Aulia Ramdani Nur</span>.
               </h1>
 
               <p className="max-w-2xl text-lg leading-8 text-zinc-600 sm:text-xl">
-                Saya seorang mahasiswa Teknik Informatika di Universitas
-                Padjadjaran. Lihat karya saya, kemampuan saya, dan cara
-                menghubungi saya di bawah.
+                I'm an Informatics Engineering student at Padjadjaran
+                University. See my work, my skills, and how to contact me below.
               </p>
             </div>
 
@@ -29,21 +28,21 @@ export default function Home() {
                 href="#projects"
                 className="inline-flex items-center justify-center rounded-full bg-amber-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-amber-800 active:bg-amber-800"
               >
-                Lihat Karya
+                View Works
               </a>
 
               <a
                 href="#contact"
                 className="inline-flex items-center justify-center rounded-full border border-amber-800 bg-white px-6 py-3 text-sm font-semibold text-amber-800 transition hover:bg-amber-800 hover:text-white active:bg-amber-800"
               >
-                Kontak Saya
+                My Contacts
               </a>
             </div>
           </div>
 
           <div className="rounded-2xl border border-zinc-200 bg-white p-8 shadow-sm">
             <p className="text-sm uppercase tracking-[0.24em] text-zinc-500">
-              Tentang Saya
+              About Me
             </p>
 
             <h2 className="mt-6 text-2xl font-semibold text-zinc-900">
@@ -51,16 +50,15 @@ export default function Home() {
             </h2>
 
             <p className="mt-4 leading-7 text-zinc-600">
-              Saya menggabungkan kreativitas dan kode untuk membuat situs yang
-              mudah digunakan, cepat, dan terlihat profesional. Saya
-              berpengalaman dengan Next.js, TypeScript, Tailwind CSS, dan desain
-              yang berfokus pada pengguna.
+              I combine creativity and code to create easy-to-use, fast, and
+              professional-looking websites. I'm experienced with Next.js,
+              TypeScript, Tailwind CSS, ans user-centric design.
             </p>
 
             <ul className="mt-6 space-y-3 text-zinc-600">
-              <li>• Membangun website landing page.</li>
-              <li>• Mengoptimalkan performa dan aksesibilitas.</li>
-              <li>• Mengubah desain menjadi pengalaman interaktif.</li>
+              <li>• Building a landing page website</li>
+              <li>• Optimize performance and accessibility</li>
+              <li>• Turning designs into interactive experiences</li>
             </ul>
           </div>
         </header>
@@ -68,15 +66,15 @@ export default function Home() {
         <section id="projects" className="space-y-8">
           <div className="space-y-3">
             <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
-              Proyek Unggulan
+              Featured Projects
             </p>
 
             <h2 className="text-3xl font-semibold text-zinc-900">
-              Karya Terbaru
+              Latest Work
             </h2>
 
             <p className="max-w-3xl text-zinc-600">
-              Beberapa proyek yang saya kembangkan:
+              Some projects I developed:
             </p>
           </div>
 
@@ -113,8 +111,8 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Platform asuransi kendaraan dengan promo menarik dan pilihan
-                  paket lengkap.
+                  Vehicle insurance platform with attractive promotions and a
+                  complete selection of packages.
                 </p>
               </div>
             </article>
@@ -151,8 +149,8 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Platform inovatif dengan antarmuka intuitif dan fitur lengkap
-                  untuk meningkatkan produktivitas bisnis Anda.
+                  An innovative platform with an intuitive interface and
+                  comprehensive features to increase your business productivity.
                 </p>
               </div>
             </article>
@@ -189,7 +187,7 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Website untuk melakukan pemesanan melalui online.
+                  Website for making online orders.
                 </p>
               </div>
             </article>
@@ -207,8 +205,7 @@ export default function Home() {
             </h2>
 
             <p className="max-w-3xl text-zinc-600">
-              Beberapa desain website dan UI yang pernah saya buat menggunakan
-              Figma.
+              Some of the website and UI designs I have created using Figma.
             </p>
           </div>
 
@@ -245,8 +242,8 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Desain awal website Proteksi Astera dengan tampilan modern dan
-                  profesional.
+                  The initial design of the Astera Protection website with a
+                  modern and professional appearance.
                 </p>
               </div>
             </article>
@@ -274,8 +271,8 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Desain platform edukasi modern yang berfokus pada pengalaman
-                  belajar yang nyaman dan interaktif.
+                  Modern educational platform design that focuses on a
+                  comfortable and interactive learning experience.
                 </p>
               </div>
             </article>
@@ -303,7 +300,7 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Desain website e-commerce dengan tampilan clean dan modern.
+                  E-commerce website design with a clean and modern look.
                 </p>
               </div>
             </article>
@@ -313,15 +310,16 @@ export default function Home() {
         <section id="modules" className="space-y-8">
           <div className="space-y-3">
             <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
-              Modul
+              Module
             </p>
 
             <h2 className="text-3xl font-semibold text-zinc-900">
-              Project Modul & Sistem
+              Project Module & System
             </h2>
 
             <p className="max-w-3xl text-zinc-600">
-              Beberapa modul dan sistem yang pernah saya rancang dan kembangkan.
+              Project Module & System Several modules and systems that I have
+              designed and developed.
             </p>
           </div>
 
@@ -352,8 +350,8 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold text-zinc-900">SSD</h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Platform untuk guru, siswa dan orang tua untuk memantau
-                  aktivitas dan pembelajaran.
+                  Platform for teachers, students and parents to monitor
+                  activities and learning.
                 </p>
               </div>
             </article>
@@ -386,8 +384,8 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-3 leading-7 text-zinc-600">
-                  Platform manajemen sekolah terpadu untuk guru, siswa, dan
-                  orang tua.
+                  An integrated school management platform for teachers,
+                  students and parents.
                 </p>
               </div>
             </article>
@@ -398,16 +396,16 @@ export default function Home() {
         <section id="skills" className="space-y-8">
           <div className="space-y-3">
             <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
-              Keahlian
+              Skill
             </p>
 
             <h2 className="text-3xl font-semibold text-zinc-900">
-              Skill & Teknologi
+              Skills & Technology
             </h2>
 
             <p className="max-w-3xl text-zinc-600">
-              Beberapa teknologi, tools, dan kemampuan yang saya gunakan dalam
-              pengembangan website dan desain UI modern.
+              Some of the technologies, tools, and skills I use in modern
+              website development and UI design.
             </p>
           </div>
 
@@ -463,16 +461,16 @@ export default function Home() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.24em] text-amber-700">
-                Hubungi Saya
+                Contact Me
               </p>
 
               <h2 className="mt-3 text-3xl font-semibold text-zinc-900">
-                Siap untuk proyek baru?
+                Ready for a new project?
               </h2>
 
               <p className="mt-4 max-w-2xl text-zinc-600 leading-7">
-                Saya terbuka untuk freelance, kolaborasi project, dan peluang
-                kerja sama lainnya.
+                I am open to freelance, project collaborations, and other
+                collaboration opportunities.
               </p>
             </div>
 
@@ -480,7 +478,7 @@ export default function Home() {
               href="mailto:aramdaninur@gmail.com"
               className="inline-flex items-center justify-center rounded-full bg-amber-700 px-7 py-3 text-sm font-semibold text-white transition hover:bg-amber-600"
             >
-              Kirim Email
+              Send Email
             </a>
           </div>
 
@@ -495,7 +493,7 @@ export default function Home() {
                 value: "@auliarn_21",
               },
               {
-                label: "Lokasi",
+                label: "Location",
                 value: "Indonesia",
               },
             ].map((item) => (
