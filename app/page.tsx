@@ -348,7 +348,7 @@ export default function Home() {
 
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-zinc-900">
-                Nutroncodes
+                Neutroncodes
               </h3>
 
               <p className="mt-3 leading-7 text-zinc-600">
